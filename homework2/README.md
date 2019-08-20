@@ -7,10 +7,10 @@
 #### Why should you understand performance of String Concatenation?
 
 一般而言,java有四种拼接字符串的方式,分别是StringBuilder(A),StringBuffer(B),concat(C),字符串加号拼接(D).笼统的说,在循环拼接字符串中,效率是A>B>>C>D;在大量字符串拼接时C>A>B>D.所以可以归纳为以下四点:
-	* 加号拼接基本在各种情况都是最慢的
-	* 拼接少数字符串时,concat效率最高
-	* 多个字符串拼接时, StringBuilder和StringBuffer效率好
-	* 不需要考虑线程安全问题时, StringBuilder效率更好
+* 加号拼接基本在各种情况都是最慢的
+* 拼接少数字符串时,concat效率最高
+* 多个字符串拼接时, StringBuilder和StringBuffer效率好
+* 不需要考虑线程安全问题时, StringBuilder效率更好
 
 #### What are the best practices with Exception Handling?
 
@@ -40,10 +40,10 @@
 
 #### Why should you minimize mutability?
 
-因为不可变类要比可变类更加易于设计，实现和使用.它们不容易出错，且更加安全.不可变类有以下优点：、
-	* 不可变对象比较简单.不可变对象可以只有一种状态，即被创建时的状态.
-	* 不可变对象本质上是线程安全的，它们不要去同步.当多个线程并发访问这样的对象时，它们不会遭到破坏.
-	* 不可变对象可以被自由地共享.
+因为不可变类要比可变类更加易于设计，实现和使用.它们不容易出错，且更加安全.不可变类有以下优点：
+* 不可变对象比较简单.不可变对象可以只有一种状态，即被创建时的状态.
+* 不可变对象本质上是线程安全的，它们不要去同步.当多个线程并发访问这样的对象时，它们不会遭到破坏.
+* 不可变对象可以被自由地共享.
 
 #### What is functional programming?
 
